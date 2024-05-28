@@ -10,9 +10,9 @@
   <p>"<strong>Padrões de projeto</strong> (design patterns) são soluções típicas para problemas comuns em projeto de software. Cada padrão é como uma planta de construção que você pode customizar para resolver um problema de projeto particular em seu código."</p>
 </blockquote>
 
-<p>Quando estamos construindo uma casa nós nos baseamos em plantas para diferentes tipos de ambientes que se adaptam às nossas necessidades. Com os Design Patterns a lógica é parecida, resolvemos problemas usando soluções comprovadas e que seguem um determinado padrão, tornando o código fácil de entender e dar manutenção, adaptável a mudanças futuras e, cujos códigos podem ser reutilizados em oturos projetos.</p>
+<p>Quando construímos uma casa, nos baseamos em plantas para diferentes tipos de ambientes que se adaptam às nossas necessidades. Com os Design Patterns, a lógica é similar: resolvemos problemas usando soluções comprovadas que seguem um determinado padrão, tornando o código fácil de entender e de dar manutenção, adaptável a mudanças futuras e reutilizável em outros projetos.</p>
 
-<p>Para facilitar o estudo dos padrões de projeto eu dividi eles em três grandes grupos:</p>
+<p>Para facilitar o estudo dos padrões de projeto, dividi-os em três grandes grupos:</p>
 <ul>
     <li>Padrões Essenciais (Conhecimento Básico);</li>
     <li>Padrões Intermediários (Aprofundamento);</li>
