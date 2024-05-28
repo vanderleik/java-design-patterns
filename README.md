@@ -92,4 +92,5 @@
 </ul>
 
 <h3>Conclusão</h3>
-<p>Estudar os padrões de projeto é um passo fundamental para qualquer desenvolvedor que busca soluções eficientes e reutilizáveis para problemas recorrentes. Através dessa jornada, espero aprofundar meus conhecimentos em design de software, aprimorar a qualidade dos meus códigos e contribuir de forma mais eficaz para os projetos nos quais estou envolvido. Vamos embarcar juntos nessa aventura de aprendizado e descoberta!</p>
+<p>Estudar os padrões de projeto é um passo fundamental para qualquer desenvolvedor que busca soluções eficientes e reutilizáveis para problemas recorrentes. Para conseguir evoluir nos estudos, precisamos de uma sequência lógica, como a que apresentei aqui neste artigo, começando com os conceitos básicos e evoluindo para os casos mais complexos.</p>
+<p>O repositório com o estudo completo está disponível no meu <a href="https://github.com/vanderleik/java-design-patterns">GitHub</a>. Talvez no momento em que você está lendo este artigo, nem todos os padrões estejam lá com seus exemplos, mas à medida que eu conseguir tempo para montar o estudo com exemplos práticos, irei atualizando o repositório.</p>
