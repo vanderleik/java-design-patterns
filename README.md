@@ -1,4 +1,6 @@
-<h1>Título a definir</h1>
+<h1>Explorando Design Patterns: Um Caminho para Soluções Eficientes em Desenvolvimento de Software</h1>
+
+
 <h3>Introdução</h3>
 
 <p>Resolver problemas é a tarefa mais importante de um desenvolvedor de software. Diariamente precisamos lidar com situações que em algum momento no passado nós tratamos, ou foram tratadas por algum colega de trabalho. Se analisarmos com cuidado encontraremos certos padrões nesses problemas, e a melhor forma de resolver isso é utilizando modelos testados que comprovadamente são eficientes para lidar com essas situações. O que eu estou querendo dizer é que, para resolver problemas que se repetem como em um padrão, devemos igualmente adotar um padrão para solucionar, ou seja, um Design Pattern. </p>
