@@ -1,3 +1,6 @@
+<h1>Título a definir</h1>
+<h3>Introdução</h3>
+
 <p>Resolver problemas é a tarefa mais importante de um desenvolvedor de software. Diariamente precisamos lidar com situações que em algum momento no passado nós tratamos, ou foram tratadas por algum colega de trabalho. Se analisarmos com cuidado encontraremos certos padrões nesses problemas, e a melhor forma de resolver isso é utilizando modelos testados que comprovadamente são eficientes para lidar com essas situações. O que eu estou querendo dizer é que, para resolver problemas que se repetem como em um padrão, devemos igualmente adotar um padrão para solucionar, ou seja, um Design Pattern. </p>
 <p>Conceitualmente falando, e citando o <a href="https://refactoring.guru/design-patterns">Refactoring Guru</a>, 
 </p>
@@ -85,4 +88,5 @@
     </ul>
 </ul>
 
-<p></p>
+<h3>Conclusão</h3>
+<p>Estudar os padrões de projeto é um passo fundamental para qualquer desenvolvedor que busca soluções eficientes e reutilizáveis para problemas recorrentes. Através dessa jornada, espero aprofundar meus conhecimentos em design de software, aprimorar a qualidade dos meus códigos e contribuir de forma mais eficaz para os projetos nos quais estou envolvido. Vamos embarcar juntos nessa aventura de aprendizado e descoberta!</p>
