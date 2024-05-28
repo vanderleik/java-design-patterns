@@ -48,7 +48,7 @@
 </ul>
 
 <h3>Padrões Intermediários (Aprofundamento):</h3>
-<p>Depois de estudar os padrões essenciais nós vamos dar um passo adiante, expandindo os conceitos aprendidos anteriormente, adicionando sofisticação e flexibilidade. Com isso estaremos aptos a lidar com problemas mais complexos, porém, dentro de um contexto familiar.</p>
+<p>Depois de estudar os padrões essenciais, daremos um passo adiante, expandindo os conceitos aprendidos anteriormente e adicionando sofisticação e flexibilidade. Com isso, estaremos aptos a lidar com problemas mais complexos, porém, dentro de um contexto familiar.</p>
 <p>Aqui exploraremos:</p>
 <ul>
     <li><strong>Criacionais:</strong></li>
