@@ -20,7 +20,8 @@
 </ul>
 
 <h3>Padrões Essenciais (Conhecimento Básico):</h3>
-<p>Começar pelos Padrões Essenciais nos dá uma base sólida em conceitos fundamentais de design de software. Ao estudá-los entenderemos como resolver problemas comuns com soluções reutilizáveis. Essa base é muito importante para absorver e aplicar os padrões mais complexos posteriormente.</p>
+
+<p>Começar pelos Padrões Essenciais nos fornece uma base sólida em conceitos fundamentais de design de software. Ao estudá-los, entenderemos como resolver problemas comuns com soluções reutilizáveis. Essa base é crucial para absorver e aplicar os padrões mais complexos posteriormente.</p>
 
 <p>Os padrões que serão objetos de estudo são:</p>
 <ul>
