@@ -1,5 +1,6 @@
 <h1>Explorando Design Patterns: Um Caminho para Soluções Eficientes em Desenvolvimento de Software</h1>
 
+<h4>Texto publicado originalmente no <a href="https://www.linkedin.com/pulse/explorando-design-patterns-um-caminho-para-solu%25C3%25A7%25C3%25B5es-em-kleinschmidt-2uimf">Linkedin</a></h4>
 
 <h3>Introdução</h3>
 
