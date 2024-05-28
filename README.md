@@ -42,7 +42,8 @@
 </ul>
 
 <h3>Padrões Intermediários (Aprofundamento):</h3>
-<p>Depois de estudar os padrões essenciais nós vamos nos aprofundar um pouco partindo para os de nível intermediário. Aqui exploraremos:</p>
+<p>Depois de estudar os padrões essenciais nós vamos dar um passo adiante, expandindo os conceitos aprendidos anteriormente, adicionando sofisticação e flexibilidade. Com isso estaremos aptos a lidar com problemas mais complexos, porém, dentro de um contexto familiar.</p>
+<p>Aqui exploraremos:</p>
 <ul>
     <li><strong>Criacionais:</strong></li>
     <ul>
@@ -64,7 +65,8 @@
 
 <h3>Padrões Avançados (Para Casos Específicos):</h3>
 
-<p>Por fim, precisamos conhecer alguns casos específicos de padrões, ou seja os de complexidade maior o que requererá um tempo maior de estudo e aperfeiçoamento. Abaixo so padrões que serão estudados:</p>
+<p>Por fim, precisamos conhecer alguns casos específicos de padrões, ou seja os de complexidade maior como otimização de desempenho ou gerenciamento de estado. Para isso precisamos de uma base sólida e não dá para queimar etapas.</p>
+<p>Abaixo so padrões que serão estudados:</p>
 
 <ul>
     <li><strong>Criacionais:</strong></li>
@@ -83,12 +85,4 @@
     </ul>
 </ul>
 
-<h3>Dicas para Dominar os Padrões:</h3>
-<ul>
-    <li>Aprenda os princípios SOLID: Eles guiam a utilização dos padrões e ajudam a escrever código mais limpo, flexível e manutenível.</li>
-    <li>Pratique: Implemente os padrões em seus próprios projetos. Comece com exemplos simples e depois vá para casos mais complexos.</li>
-    <li>Estude exemplos: Explore bibliotecas e frameworks Java populares para ver como eles usam padrões de projeto.</li>
-    <li>Refatore seu código: Utilize padrões para melhorar o código existente, tornando-o mais flexível e reutilizável.</li>
-    <li>Participe da comunidade: Interaja com outros desenvolvedores para aprender, compartilhar experiências e discutir boas práticas.</li>
-    <li>Lembre-se: dominar padrões de projeto não é um processo rápido, mas o esforço vale a pena. Com a prática e a dedicação, você se tornará um programador Java mais eficiente, criativo e capaz de construir sistemas de software robustos e escaláveis.# java-design-patterns.</li>
-</ul>
+<p></p>
