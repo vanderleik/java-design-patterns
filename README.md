@@ -71,7 +71,7 @@
 
 <h3>Padrões Avançados (Para Casos Específicos):</h3>
 
-<p>Por fim, precisamos conhecer alguns casos específicos de padrões, ou seja os de complexidade maior como otimização de desempenho ou gerenciamento de estado. Para isso precisamos de uma base sólida e não dá para queimar etapas.</p>
+<p>Por fim, precisamos conhecer alguns casos específicos de padrões, ou seja, os de complexidade maior, como otimização de desempenho ou gerenciamento de estado. Para isso, precisamos de uma base sólida e não podemos queimar etapas.</p>
 <p>Abaixo so padrões que serão estudados:</p>
 
 <ul>
