@@ -14,7 +14,6 @@
     <li>Padrões Avançados (Para Casos Específicos).</li>
 </ul>
 
-
 <h3>Padrões Essenciais (Conhecimento Básico):</h3>
 <p>Começar pelos Padrões Essenciais nos dá uma base sólida em conceitos fundamentais de design de software. Ao estudá-los entenderemos como resolver problemas comuns com soluções reutilizáveis. Essa base é muito importante para absorver e aplicar os padrões mais complexos posteriormente.</p>
 
@@ -42,20 +41,26 @@
     </li>
 </ul>
 
-
-
 <h3>Padrões Intermediários (Aprofundamento):</h3>
 
-Criacionais:
-Builder: Constrói objetos complexos passo a passo, oferecendo flexibilidade e controle.
-Prototype: Cria novas instâncias clonando objetos existentes, economizando tempo e recursos.
-Estruturais:
-Facade: Fornece uma interface simplificada para um subsistema complexo.
-Composite: Compõe objetos em estruturas hierárquicas, permitindo tratar objetos individuais e composições da mesma forma.
-Comportamentais:
-Command: Encapsula uma requisição como um objeto, permitindo desacoplar o emissor da requisição do executor.
-Iterator: Permite percorrer os elementos de um objeto agregado sem expor sua representação interna.
-Mediator: Define um objeto que encapsula a interação entre um conjunto de objetos, simplificando a comunicação e evitando acoplamentos diretos.
+<ul>
+    <li><strong>Criacionais:</strong></li>
+    <ul>
+        <li><strong>Builder:</strong> Constrói objetos complexos passo a passo, oferecendo flexibilidade e controle.</li>
+        <li><strong>Prototype:</strong> Cria novas instâncias clonando objetos existentes, economizando tempo e recursos.</li>
+    </ul>
+    <li><strong>Estruturais:</strong></li>
+    <ul>
+        <li><strong>Facade: </strong>Fornece uma interface simplificada para um subsistema complexo.</li>
+        <li><strong>Composite: </strong>Compõe objetos em estruturas hierárquicas, permitindo tratar objetos individuais e composições da mesma forma.</li>
+    </ul>
+    <li><strong>Comportamentais:</strong></li>
+        <ul>
+            <li><strong>Command: </strong>Encapsula uma requisição como um objeto, permitindo desacoplar o emissor da requisição do executor.</li>
+            <li><strong>Iterator: </strong>Permite percorrer os elementos de um objeto agregado sem expor sua representação interna.</li>
+            <li><strong>Mediator: </strong>Define um objeto que encapsula a interação entre um conjunto de objetos, simplificando a comunicação e evitando acoplamentos diretos.</li>
+        </ul>
+</ul>
 
 <h3>Padrões Avançados (Para Casos Específicos):</h3>
 Criacionais:
