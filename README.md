@@ -3,7 +3,7 @@
 
 <h3>Introdução</h3>
 
-<p>Resolver problemas é a tarefa mais importante de um desenvolvedor de software. Diariamente precisamos lidar com situações que em algum momento no passado nós tratamos, ou foram tratadas por algum colega de trabalho. Se analisarmos com cuidado encontraremos certos padrões nesses problemas, e a melhor forma de resolver isso é utilizando modelos testados que comprovadamente são eficientes para lidar com essas situações. O que eu estou querendo dizer é que, para resolver problemas que se repetem como em um padrão, devemos igualmente adotar um padrão para solucionar, ou seja, um Design Pattern. </p>
+<p>Resolver problemas é a tarefa mais importante de um desenvolvedor de software. Diariamente, lidamos com situações que já enfrentamos no passado ou que foram resolvidas por algum colega de trabalho. Ao analisarmos esses problemas com cuidado, percebemos certos padrões. Para lidar com essas situações repetitivas de forma eficiente, a melhor abordagem é utilizar modelos testados e comprovadamente eficazes, os chamados Design Patterns. Em outras palavras, para resolver problemas que se repetem de forma padronizada, devemos adotar um padrão de solução, ou seja, um Design Pattern.</p>
 <p>Conceitualmente falando, e citando o <a href="https://refactoring.guru/design-patterns">Refactoring Guru</a>, 
 </p>
 <blockquote cite="https://refactoring.guru/pt-br/design-patterns">
