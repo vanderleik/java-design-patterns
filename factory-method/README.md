@@ -1,20 +1,20 @@
 <h1>Factory Method</h1>
 
-<p>O Factory Method Pattern é um padrão criacional de projetos que define uma interface para criar um objeto, promovendo a independência entre a criação de um objeto e a sua utilização, permitindo que o sistema dependa de abstrações em vez de implementações concretas. Isso está em linha com o Dependency Inversion Principle (DIP) do S.O.L.I.D. e também o Open/Close Principle (OCP) (tenho um artigo que fala sobre SOLID aqui).</p>
+<p>O padrão de projeto Factory Method é um padrão criacional que define uma interface para a criação de objetos, promovendo a independência entre a criação e a utilização de um objeto. Isso permite que o sistema dependa de abstrações em vez de implementações concretas, que está em linha com o Dependency Inversion Principle (DIP) do S.O.L.I.D. e também com o Open/Close Principle (OCP) (tenho um artigo que fala sobre SOLID <a href="https://www.linkedin.com/pulse/princ%25C3%25ADpios-de-design-software-solid-vanderlei-kleinschmidt-klawe/?trackingId=Remz6xNjSzmLNzoJRpIDQQ%3D%3D">aqui</a>).</p>
 
-<p>Esse é um dos patterns mais usados em Java, e resolve principalmente o problema de criação de objetos sem especificar a classe exata dos objetos que serão criados. Assim, a superclasse não sabe exatamente quais os tipos de objetos ela precisa criar, delegando a responsabilidade de criação para a subclasse, promovendo a reutilização de código, a flexibilidade do sistema e facilitando a sua manutenção.</p>
+<p>Esse é um dos padrões mais usados em Java, e resolve principalmente o problema de criação de objetos sem especificar a classe exata dos objetos que serão criados. Assim, a superclasse não sabe exatamente quais os tipos de objetos ela precisa criar, delegando a responsabilidade de criação para a subclasse, promovendo a reutilização de código, a flexibilidade do sistema e tornando a manutenção mais fácil.</p>
 
-<p>O Factory Method Pattern deve ser usado em várias situações específicas onde suas características de criação de objetos e desacoplamento podem trazer benefícios significativos. Aqui estão algumas dessas situações:</p>
+<p>O Factory Method Pattern é útil em diversas situações específicas, onde suas características de criação de objetos e desacoplamento podem trazer benefícios significativos. Algumas dessas situações são:</p>
 <ul>
-    <li>Quando ainda não tenho certeza sobre qual classe concreta eu devo instanciar, podemos criar uma classe cujos tipos exatos só são conhecidos pelas subclasses.</li>
-    <li>Usamos para desacoplar o código Cliente da lógica de criação de objetos.</li>
-    <li>Para centralizar e encapsular a lógica de criação de objetos (quando ela é complexa).</li>
-    <li>Para facilitar a adição de novos tipos de objetos.</li>
+    <li>Quando a classe concreta a ser instanciada é desconhecida, podemos criar uma classe cujos tipos exatos são definidos pelas subclasses.</li>
+    <li>Usamos para desacoplar o código cliente da lógica de criação de objetos.</li>
+    <li>Para centralizar e encapsular a lógica de criação de objetos, especialmente quando essa lógica é complexa.</li>
+    <li>Para facilitar a adição de novos tipos de objetos, sem modificar o código existente.</li>
 </ul>
 
-<p>Usar o Factory Method Pattern traz muitas vantagens como a redução do acoplamento entre o código que usa os objetos e as classes concretas dos objetos, adicionar novos tipos de objetos é facilitada, assim como a sua manutenção em função da centralização da lógica de criação, e principalmente para promover o uso dos princípios SOLID como o DIP e o OCP.</p>
+<p>O uso do Factory Method Pattern oferece diversas vantagens, como a redução do acoplamento entre o código que utiliza os objetos e as classes concretas, facilitando a adição de novos tipos de instâncias, além de simplificar a manutenção em função da centralização da lógica de criação. O padrão contribui significativamente para a aplicação dos princípios SOLID, como o DIP e o OCP.</p>
 
-<p>Embora ofereça várias vantagens, ele também apresenta algumas desvantagens que devemos considerar. O aumento da complexidade do código pode ser uma delas porque com o uso do Factory Method estamos introduzindo múltiplas classes e interfaces que pode tornar o sistema como um todo mais difícil de entender e manter, principalmente se a senioridade do time de desenvolvedores for muito júnior.</p>
+<p>Apesar de oferecer diversas vantagens, o Factory Method Pattern também apresenta algumas desvantagens que devem ser consideradas. O aumento da complexidade do código pode ser uma delas, pois sua utilização introduz múltiplas classes e interfaces, o que pode tornar o sistema como um todo mais difícil de entender e manter, especialmente se a equipe de desenvolvimento tiver pouca experiência.</p>
 
 <p>Usar esse padrão em projetos pequenos pode parecer boilerplate por causa da necessidade de criar muitas classes e métodos, o que também pode causar uma certa dificuldade em rastrear o fluxo de criação dos objetos.</p>
 
