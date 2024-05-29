@@ -16,13 +16,13 @@
 
 <p>Apesar de oferecer diversas vantagens, o Factory Method Pattern também apresenta algumas desvantagens que devem ser consideradas. O aumento da complexidade do código pode ser uma delas, pois sua utilização introduz múltiplas classes e interfaces, o que pode tornar o sistema como um todo mais difícil de entender e manter, especialmente se a equipe de desenvolvimento tiver pouca experiência.</p>
 
-<p>Usar esse padrão em projetos pequenos pode parecer boilerplate por causa da necessidade de criar muitas classes e métodos, o que também pode causar uma certa dificuldade em rastrear o fluxo de criação dos objetos.</p>
+<p>Em projetos pequenos, o uso desse padrão pode parecer redundante (boilerplate) devido à necessidade de criar muitas classes e métodos, o que pode dificultar o rastreamento do fluxo de criação dos objetos.</p>
 
-<p>Por esses motivos, devemos evitar o Factory Method Pattern em projetos pequenos e simples, ou quando queremos criar objetos simples. Também devemos evitar esse padrão quando preferirmos a composição ao invés da herança, ou seja, construir classes usando referências a outras classes, delegando o comportamento para esses objetos através da injeção de dependências.</p>
+<p>Por esses motivos, o Factory Method Pattern deve ser evitado em projetos pequenos e simples, ou quando a criação de objetos simples é o objetivo. Também devemos evitar esse padrão quando a composição for preferível à herança, ou seja, quando a construção de classes envolve o uso de referências a outras classes, delegando o comportamento a esses objetos através da injeção de dependências.</p>
 
-<p>Para trazemos esse padrão de projetos para a vida real, vamos pensar em um banco que oferece empréstimos para seus clientes pessoas físicas. São vários os tipos de empréstimo disponível no mercado bancário, como por exemplo empréstimo pessoal com garantia ou sem garantia, consignado (para aposentados e pensionistas, colaboradores de empresas privadas ou funcionários públicos), crédito pessoal, cheque especial, antecipação do FTGS, do 13º salário e da restituição do Imposto de Renda, financiamentos diversos como o de imóveis, veículos ou eletrodomésticos, entre muitos outros.</p>
+<p>Para ilustrar o uso do Factory Method Pattern na prática, imagine um banco que oferece empréstimos para seus clientes pessoas físicas. O mercado bancário oferece diversos tipos de empréstimos, como empréstimo pessoal com ou sem garantia, consignado (para aposentados, pensionistas, colaboradores de empresas privadas ou funcionários públicos), crédito pessoal, cheque especial, antecipação do FGTS, do 13º salário e da restituição do Imposto de Renda, financiamentos de imóveis, veículos ou eletrodomésticos, entre muitos outros.</p>
 
-<p>Em termos práticos, podemos criar uma estrutura onde cada tipo de empréstimo é tratado como um produto concreto, e uma fábrica é responsável por criar instâncias desses produtos. O primeiro passo então, é definir uma interface para os empréstimos.</p>
+<p>Na prática, podemos criar uma estrutura em que cada tipo de empréstimo é tratado como um produto concreto, e uma fábrica é responsável por criar instâncias desses produtos. O primeiro passo, então, é definir uma interface para os empréstimos.</p>
 
 ```java
 package interfaces;
@@ -31,7 +31,7 @@ public interface Emprestimo {
     void calcularJuros();
 }
 ```
-<p>O próximo passo é  fazer as implementações concretas para cada tipo de empréstimo.</p>
+<p>O próximo passo é implementar cada tipo de empréstimo de forma concreta.</p>
 
 ```java
 package produtos_concretos;
@@ -78,7 +78,7 @@ public class BemImovelEmprestimo implements Emprestimo {
 }
 ```
 
-<p>A seguir, definimos uma fábrica ou classe abstrata “EmprestimoFactory” com um método para criar empréstimos.</p>
+<p>Em seguida, definimos uma fábrica, ou classe abstrata "EmpréstimoFactory", com um método para criar empréstimos.</p>
 
 ```java
 package fabrica;
@@ -96,7 +96,7 @@ public abstract class EmprestimoFactory {
 }
 ```
 
-<p>Depois criamos as fábricas concretas ou subclasses para cada tipo de empréstimo.</p>
+<p>Em seguida, criamos as fábricas concretas, ou subclasses, para cada tipo de empréstimo.</p>
 
 ```java
 package fabrica.fabrica_concreta;
@@ -149,7 +149,7 @@ public class BemImovelEmprestimoFactory extends EmprestimoFactory {
 }
 ```
 
-<p>Finalmente, podemos usar as fábricas para criar diferentes tipos de empréstimos e processá-los.</p>
+<p>Por fim, podemos usar as fábricas para criar e processar diferentes tipos de empréstimos.</p>
 
 ```java
 import fabrica.EmprestimoFactory;
@@ -175,6 +175,6 @@ public class Main {
     
 }
 ```
-<p>Vamos entender o código acima. A interface “Emprestimo” define a interface comum para todos os tipos de empréstimos. As classes concretas “CdcEmprestimo”, “ConsignadoInssEmprestimo” e “BemImovelEmprestimo” implementam a interface “Emprestimo” e fornecem a lógica para cada tipo de empréstimo.</p>
+<p>Vamos analisar o código apresentado. A interface "Empréstimo" define a interface comum para todos os tipos de empréstimos. As classes concretas "CdcEmprestimo", "ConsignadoInssEmprestimo" e "BemImovelEmprestimo" implementam a interface "Empréstimo" e fornecem a lógica específica para cada tipo de empréstimo.</p>
 
 <p>A classe abstrata “EmprestimoFactory” define o método abstrato “criarEmprestimo” e um método concreto “processarEmprestimo” que utiliza o produto criado. Cada fábrica concreta (”CdcEmprestimoFactory”, “ConsignadoInssEmprestimoFactory” e “BemImovelEmprestimoFactory”) implementa o método “criarEmprestimo” para retornar uma instância específica do tipo de empréstimo.</p>
