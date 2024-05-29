@@ -1,4 +1,4 @@
-<h1>Factory Method</h1>
+<h1>Factory Method: Uma Abordagem Modular para a Criação de Empréstimos Bancários</h1>
 
 <p>O padrão de projeto Factory Method é um padrão criacional que define uma interface para a criação de objetos, promovendo a independência entre a criação e a utilização de um objeto. Isso permite que o sistema dependa de abstrações em vez de implementações concretas, que está em linha com o Dependency Inversion Principle (DIP) do S.O.L.I.D. e também com o Open/Close Principle (OCP) (tenho um artigo que fala sobre SOLID <a href="https://www.linkedin.com/pulse/princ%25C3%25ADpios-de-design-software-solid-vanderlei-kleinschmidt-klawe/?trackingId=Remz6xNjSzmLNzoJRpIDQQ%3D%3D">aqui</a>).</p>
 
