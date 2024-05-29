@@ -177,4 +177,4 @@ public class Main {
 ```
 <p>Vamos analisar o código apresentado. A interface "Empréstimo" define a interface comum para todos os tipos de empréstimos. As classes concretas "CdcEmprestimo", "ConsignadoInssEmprestimo" e "BemImovelEmprestimo" implementam a interface "Empréstimo" e fornecem a lógica específica para cada tipo de empréstimo.</p>
 
-<p>A classe abstrata “EmprestimoFactory” define o método abstrato “criarEmprestimo” e um método concreto “processarEmprestimo” que utiliza o produto criado. Cada fábrica concreta (”CdcEmprestimoFactory”, “ConsignadoInssEmprestimoFactory” e “BemImovelEmprestimoFactory”) implementa o método “criarEmprestimo” para retornar uma instância específica do tipo de empréstimo.</p>
+<p>A classe abstrata "EmpréstimoFactory" define o método abstrato "criarEmpréstimo" e um método concreto "processarEmpréstimo", que utiliza o produto criado. Cada fábrica concreta ("CdcEmprestimoFactory", "ConsignadoInssEmprestimoFactory" e "BemImovelEmprestimoFactory") implementa o método "criarEmpréstimo" para retornar uma instância específica do tipo de empréstimo desejado.</p>
