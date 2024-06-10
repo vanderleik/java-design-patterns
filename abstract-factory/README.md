@@ -1,5 +1,7 @@
 <h1>Abstract Factory</h1>
 
+<h4>Texto publicado originalmente no <a href="https://www.linkedin.com/pulse/abstract-factory-criando-fam%25C3%25ADlias-de-objetos-vanderlei-kleinschmidt-my2rf">Linkedin</a></h4>
+
 <p>O Abstract Factory é um padrão de projeto criacional para criar famílias de objetos. 
 Ele fornece uma abstração para a criação de objetos, onde você escolhe a família sem precisar conhecer
 a implementação específica de cada uma delas, promovendo maior flexibilidade e adaptabilidade do código 
