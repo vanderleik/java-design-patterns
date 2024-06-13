@@ -1,5 +1,6 @@
 <h1>Singleton: Uma Instância Única</h1>
 
+<h4>Texto publicado originalmente no <a href="https://www.linkedin.com/pulse/singleton-uma-inst%25C3%25A2ncia-%25C3%25BAnica-vanderlei-kleinschmidt-jdcpf">Linkedin.</a></h3>
 <p>Em um dos meus primeiros <a href="https://www.linkedin.com/pulse/explorando-design-patterns-um-caminho-para-solu%2525C3%2525A7%2525C3%2525B5es-em-kleinschmidt-2uimf/?trackingId=zqORpZZxby8t3aVyZaCCdQ%3D%3D">artigos</a>, abordei os padrões de projeto, categorizando-os em essenciais, intermediários e avançados. Para cada grupo, apresentei exemplos de padrões criacionais, estruturais e comportamentais. Em seguida, iniciei a discussão sobre os padrões essenciais, focando inicialmente nos padrões criacionais de fábrica, o <a href="https://www.linkedin.com/pulse/factory-method-uma-abordagem-modular-para-cria%25C3%25A7%25C3%25A3o-de-kleinschmidt-bosaf/?trackingId=Xo9WAy6MSka%2BTKonZItryg%3D%3D">Factory Method</a> e o <a href="https://www.linkedin.com/pulse/abstract-factory-criando-fam%25C3%25ADlias-de-objetos-vanderlei-kleinschmidt-my2rf/?trackingId=Xo9WAy6MSka%2BTKonZItryg%3D%3D">Abstract Factory</a>. Hoje, aprofundaremos nosso conhecimento sobre o padrão Singleton, finalizando esta série de padrões criacionais essenciais.</p>
 <p>O site do <a href="https://refactoring.guru/pt-br/design-patterns/singleton">Rector Guru</a> define o Singleton como</p>
 <blockquote>"... um padrão de projeto criacional que garante que uma classe tenha apenas uma instância, fornecendo ao mesmo tempo um ponto de acesso global para essa instância".</blockquote>
@@ -109,4 +110,4 @@ public class SingletonMain {
     }
 }
 ```
-<p>A classe <code>Main</code> demonstra como obter a instância única de <code>BankAccountManager</code> e realizar operações de criação de contas, depósitos e saques. Este exemplo ilustra como o padrão Singleton pode ser utilizado para garantir que apenas uma instância do gerenciador de contas bancárias exista, facilitando o acesso e a manipulação de contas de forma centralizada e eficiente.</p>
+<p>A classe <code>SingletonMain</code> demonstra como obter a instância única de <code>BankAccountManager</code> e realizar operações de criação de contas, depósitos e saques. Este exemplo ilustra como o padrão Singleton pode ser utilizado para garantir que apenas uma instância do gerenciador de contas bancárias exista, facilitando o acesso e a manipulação de contas de forma centralizada e eficiente.</p>
