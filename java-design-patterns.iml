@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/abstract-factory" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/factory-method/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/singleton" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/builder" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
