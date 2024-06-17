@@ -1,5 +1,7 @@
 <h1>O Padrão Builder na Construção de Objetos Complexos</h1>
 
+<h4>Texto publicado originalmente no <a href="https://www.linkedin.com/pulse/o-padr%25C3%25A3o-builder-na-constru%25C3%25A7%25C3%25A3o-de-objetos-complexos-kleinschmidt-jao6f">Linkedin</a></h4>
+
 <p>O Builder é um padrão de design utilizado para a construção de objetos complexos passo a passo. Sua simplicidade e facilidade de compreensão o tornam um poderoso aliado para o desenvolvedor. A essência desse padrão reside na separação da construção do objeto de sua representação, permitindo que o mesmo processo gere diferentes representações.</p>
 
 <p>A implementação do padrão Builder se inicia com a definição de um produto que representa o objeto complexo a ser construído. Em seguida, é definida a interface Builder, responsável pela criação das partes do objeto. Na sequência, os métodos específicos dessa interface são implementados em um construtor concreto. Por fim, o Diretor encapsula a construção do produto utilizando uma instância do Builder, definindo a ordem da construção e invocando as operações de construção.</p>
