@@ -1,6 +1,6 @@
 <h1>Quebrando o Singleton com Reflection</h1>
 
-[//]: # (<h4>Texto publicado originalmente no <a href="https://www.linkedin.com/pulse/singleton-uma-inst%25C3%25A2ncia-%25C3%25BAnica-vanderlei-kleinschmidt-jdcpf">Linkedin.</a></h3>)
+<h4>Texto publicado originalmente no <a href="https://www.linkedin.com/pulse/quebrando-o-singleton-com-reflection-vanderlei-kleinschmidt-4cyof">Linkedin.</a></h3>
 
 <p>No Java, o padrão Singleton garante que uma classe tenha apenas uma instância em todo o ciclo de vida da aplicação, fornecendo um ponto global de acesso a essa instância. Para implementá-lo, utilizamos um construtor privado, uma instância estática da própria classe e um método estático público para obtê-la. Um exemplo detalhado pode ser encontrado em meu artigo sobre Singleton (<a href="https://www.linkedin.com/pulse/singleton-uma-inst%25C3%25A2ncia-%25C3%25BAnica-vanderlei-kleinschmidt-jdcpf">link aqui)</a>.</p>
 <p>A ideia central reside no construtor privado, que impede o acesso por outras classes, evitando a criação de múltiplas instâncias. No entanto, o Reflection, uma funcionalidade do Java que permite a inspeção e manipulação do código em tempo de execução, torna possível acessar classes, métodos e atributos privados de forma dinâmica.</p>
