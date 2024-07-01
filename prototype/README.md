@@ -1,6 +1,6 @@
 <h1>Otimização de Transações Bancárias com o Padrão de Projeto Prototype em Java</h1>
 
-<h4>Texto publicado originalmente no Linkedin.</h4>
+<h4>Texto publicado originalmente no <a href="https://www.linkedin.com/pulse/otimiza%25C3%25A7%25C3%25A3o-de-transa%25C3%25A7%25C3%25B5es-banc%25C3%25A1rias-com-o-padr%25C3%25A3o-em-kleinschmidt-34smf">Linkedin</a>.</h4>
 
 <p>O Prototype é um padrão de projeto criacional, de nível de dificuldade de entendimento intermediário, utilizado para copiar objetos. Para isso, é criada uma interface comum (protótipo) para todos os objetos, permitindo que você faça a clonagem sem acoplamento. Durante o processo, você delega a operação ao próprio objeto que será clonado.</p>
 
