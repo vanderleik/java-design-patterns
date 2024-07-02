@@ -75,11 +75,7 @@
 <p>Por fim, precisamos conhecer alguns casos específicos de padrões, ou seja, os de complexidade maior, como otimização de desempenho ou gerenciamento de estado. Para isso, precisamos de uma base sólida e não podemos queimar etapas.</p>
 <p>Abaixo so padrões que serão estudados:</p>
 
-<ul>
-    <li><strong>Criacionais:</strong></li>
-    <ul>
-        <li><strong>Flyweight: </strong>Compartilha objetos imutáveis para otimizar o uso de memória.</li>
-    </ul>
+<ul>    
     <li><strong>Estruturais:</strong></li>
     <ul>
         <li><strong>Proxy: </strong>Fornece um substituto para outro objeto, controlando o acesso a ele.</li>
