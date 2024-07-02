@@ -78,6 +78,7 @@
 <ul>    
     <li><strong>Estruturais:</strong></li>
     <ul>
+        <li><strong>Flyweight: </strong>Compartilha objetos imutáveis para otimizar o uso de memória.</li>    
         <li><strong>Proxy: </strong>Fornece um substituto para outro objeto, controlando o acesso a ele.</li>
     </ul>
     <li><strong>Comportamentais:</strong></li>
